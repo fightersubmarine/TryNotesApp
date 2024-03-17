@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C715194E2BA1B47500E0935B /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715194D2BA1B47500E0935B /* Font.swift */; };
+		C71519502BA1B48700E0935B /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715194F2BA1B48700E0935B /* Constraint.swift */; };
+		C71519522BA1C82A00E0935B /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71519512BA1C82A00E0935B /* NoteTableViewCell.swift */; };
+		C71519562BA1DB6700E0935B /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71519552BA1DB6700E0935B /* NoteViewController.swift */; };
+		C71519592BA1DEB400E0935B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71519582BA1DEB400E0935B /* Coordinator.swift */; };
+		C715195B2BA1E08300E0935B /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715195A2BA1E08300E0935B /* BaseCoordinator.swift */; };
+		C715195D2BA1E10B00E0935B /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715195C2BA1E10B00E0935B /* AppCoordinator.swift */; };
+		C715195F2BA1E1CF00E0935B /* MainScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715195E2BA1E1CF00E0935B /* MainScreenCoordinator.swift */; };
+		C71519612BA1E5F000E0935B /* NoteViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71519602BA1E5F000E0935B /* NoteViewCoordinator.swift */; };
 		C73A14572BA1873C0013D7DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73A14562BA1873C0013D7DD /* AppDelegate.swift */; };
 		C73A14592BA1873C0013D7DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73A14582BA1873C0013D7DD /* SceneDelegate.swift */; };
 		C73A145B2BA1873C0013D7DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73A145A2BA1873C0013D7DD /* ViewController.swift */; };
-		C73A145E2BA1873C0013D7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73A145C2BA1873C0013D7DD /* Main.storyboard */; };
 		C73A14602BA187400013D7DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73A145F2BA187400013D7DD /* Assets.xcassets */; };
 		C73A14632BA187400013D7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73A14612BA187400013D7DD /* LaunchScreen.storyboard */; };
+		C74CB40B2BA6F92F005A65AB /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74CB40A2BA6F92F005A65AB /* NoteModel.swift */; };
+		C74CB40E2BA6F9F2005A65AB /* NotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74CB40D2BA6F9F2005A65AB /* NotesManager.swift */; };
+		C74CB4122BA6FD08005A65AB /* NoteScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74CB4112BA6FD08005A65AB /* NoteScreenPresenter.swift */; };
+		CF29EAC65BE31ABC11231970 /* libPods-TryNotesApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2463F04E044C7B7A4BEBDC /* libPods-TryNotesApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		628A9196FB32B27D3DEF3BAF /* Pods-TryNotesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryNotesApp.debug.xcconfig"; path = "Target Support Files/Pods-TryNotesApp/Pods-TryNotesApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C715194D2BA1B47500E0935B /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		C715194F2BA1B48700E0935B /* Constraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		C71519512BA1C82A00E0935B /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		C71519552BA1DB6700E0935B /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		C71519582BA1DEB400E0935B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		C715195A2BA1E08300E0935B /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		C715195C2BA1E10B00E0935B /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		C715195E2BA1E1CF00E0935B /* MainScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenCoordinator.swift; sourceTree = "<group>"; };
+		C71519602BA1E5F000E0935B /* NoteViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewCoordinator.swift; sourceTree = "<group>"; };
 		C73A14532BA1873C0013D7DD /* TryNotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryNotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73A14562BA1873C0013D7DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C73A14582BA1873C0013D7DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C73A145A2BA1873C0013D7DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C73A145D2BA1873C0013D7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C73A145F2BA187400013D7DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C73A14622BA187400013D7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C73A14642BA187400013D7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74CB40A2BA6F92F005A65AB /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		C74CB40D2BA6F9F2005A65AB /* NotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesManager.swift; sourceTree = "<group>"; };
+		C74CB4112BA6FD08005A65AB /* NoteScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteScreenPresenter.swift; sourceTree = "<group>"; };
+		E7E5C6EBF1371E1265C0A4F3 /* Pods-TryNotesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryNotesApp.release.xcconfig"; path = "Target Support Files/Pods-TryNotesApp/Pods-TryNotesApp.release.xcconfig"; sourceTree = "<group>"; };
+		ED2463F04E044C7B7A4BEBDC /* libPods-TryNotesApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TryNotesApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF29EAC65BE31ABC11231970 /* libPods-TryNotesApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B00A359501D61C0CEBA512B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED2463F04E044C7B7A4BEBDC /* libPods-TryNotesApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C715194C2BA1B45300E0935B /* Metrics */ = {
+			isa = PBXGroup;
+			children = (
+				C715194D2BA1B47500E0935B /* Font.swift */,
+				C715194F2BA1B48700E0935B /* Constraint.swift */,
+			);
+			path = Metrics;
+			sourceTree = "<group>";
+		};
+		C71519532BA1DB0200E0935B /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C73A145A2BA1873C0013D7DD /* ViewController.swift */,
+				C71519512BA1C82A00E0935B /* NoteTableViewCell.swift */,
+				C715195E2BA1E1CF00E0935B /* MainScreenCoordinator.swift */,
+				C74CB40A2BA6F92F005A65AB /* NoteModel.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		C71519542BA1DB4200E0935B /* NoteScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C71519552BA1DB6700E0935B /* NoteViewController.swift */,
+				C71519602BA1E5F000E0935B /* NoteViewCoordinator.swift */,
+				C74CB4112BA6FD08005A65AB /* NoteScreenPresenter.swift */,
+			);
+			path = NoteScreen;
+			sourceTree = "<group>";
+		};
+		C71519572BA1DE8F00E0935B /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				C71519582BA1DEB400E0935B /* Coordinator.swift */,
+				C715195A2BA1E08300E0935B /* BaseCoordinator.swift */,
+				C715195C2BA1E10B00E0935B /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 		C73A144A2BA1873C0013D7DD = {
 			isa = PBXGroup;
 			children = (
 				C73A14552BA1873C0013D7DD /* TryNotesApp */,
 				C73A14542BA1873C0013D7DD /* Products */,
+				F69E8ED27536F6338DA6AFE6 /* Pods */,
+				B00A359501D61C0CEBA512B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +133,43 @@
 		C73A14552BA1873C0013D7DD /* TryNotesApp */ = {
 			isa = PBXGroup;
 			children = (
-				C73A14562BA1873C0013D7DD /* AppDelegate.swift */,
-				C73A14582BA1873C0013D7DD /* SceneDelegate.swift */,
-				C73A145A2BA1873C0013D7DD /* ViewController.swift */,
-				C73A145C2BA1873C0013D7DD /* Main.storyboard */,
+				C74CB40C2BA6F9BC005A65AB /* Data */,
+				C71519572BA1DE8F00E0935B /* Coordinators */,
+				C71519542BA1DB4200E0935B /* NoteScreen */,
+				C71519532BA1DB0200E0935B /* MainScreen */,
+				C715194C2BA1B45300E0935B /* Metrics */,
+				C745D6AC2BA188B800CF5CCC /* Core */,
 				C73A145F2BA187400013D7DD /* Assets.xcassets */,
 				C73A14612BA187400013D7DD /* LaunchScreen.storyboard */,
 				C73A14642BA187400013D7DD /* Info.plist */,
 			);
 			path = TryNotesApp;
+			sourceTree = "<group>";
+		};
+		C745D6AC2BA188B800CF5CCC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C73A14562BA1873C0013D7DD /* AppDelegate.swift */,
+				C73A14582BA1873C0013D7DD /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C74CB40C2BA6F9BC005A65AB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C74CB40D2BA6F9F2005A65AB /* NotesManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F69E8ED27536F6338DA6AFE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				628A9196FB32B27D3DEF3BAF /* Pods-TryNotesApp.debug.xcconfig */,
+				E7E5C6EBF1371E1265C0A4F3 /* Pods-TryNotesApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C73A14672BA187400013D7DD /* Build configuration list for PBXNativeTarget "TryNotesApp" */;
 			buildPhases = (
+				73B66D725AA9CCA16D79F999 /* [CP] Check Pods Manifest.lock */,
 				C73A144F2BA1873C0013D7DD /* Sources */,
 				C73A14502BA1873C0013D7DD /* Frameworks */,
 				C73A14512BA1873C0013D7DD /* Resources */,
+				184083DC59708F74597FCBD1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,34 +234,79 @@
 			files = (
 				C73A14632BA187400013D7DD /* LaunchScreen.storyboard in Resources */,
 				C73A14602BA187400013D7DD /* Assets.xcassets in Resources */,
-				C73A145E2BA1873C0013D7DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		184083DC59708F74597FCBD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TryNotesApp/Pods-TryNotesApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TryNotesApp/Pods-TryNotesApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TryNotesApp/Pods-TryNotesApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73B66D725AA9CCA16D79F999 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TryNotesApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C73A144F2BA1873C0013D7DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71519592BA1DEB400E0935B /* Coordinator.swift in Sources */,
+				C74CB4122BA6FD08005A65AB /* NoteScreenPresenter.swift in Sources */,
+				C715195B2BA1E08300E0935B /* BaseCoordinator.swift in Sources */,
+				C715195D2BA1E10B00E0935B /* AppCoordinator.swift in Sources */,
+				C74CB40E2BA6F9F2005A65AB /* NotesManager.swift in Sources */,
+				C71519562BA1DB6700E0935B /* NoteViewController.swift in Sources */,
+				C715194E2BA1B47500E0935B /* Font.swift in Sources */,
+				C74CB40B2BA6F92F005A65AB /* NoteModel.swift in Sources */,
 				C73A145B2BA1873C0013D7DD /* ViewController.swift in Sources */,
 				C73A14572BA1873C0013D7DD /* AppDelegate.swift in Sources */,
+				C71519502BA1B48700E0935B /* Constraint.swift in Sources */,
+				C715195F2BA1E1CF00E0935B /* MainScreenCoordinator.swift in Sources */,
+				C71519612BA1E5F000E0935B /* NoteViewCoordinator.swift in Sources */,
 				C73A14592BA1873C0013D7DD /* SceneDelegate.swift in Sources */,
+				C71519522BA1C82A00E0935B /* NoteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C73A145C2BA1873C0013D7DD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C73A145D2BA1873C0013D7DD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C73A14612BA187400013D7DD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -203,7 +355,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +418,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +439,7 @@
 		};
 		C73A14682BA187400013D7DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 628A9196FB32B27D3DEF3BAF /* Pods-TryNotesApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,9 +450,9 @@
 				INFOPLIST_FILE = TryNotesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,14 +460,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "alex-sockolow.TryNotesApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C73A14692BA187400013D7DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E5C6EBF1371E1265C0A4F3 /* Pods-TryNotesApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,9 +482,9 @@
 				INFOPLIST_FILE = TryNotesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +492,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "alex-sockolow.TryNotesApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,6 @@
+module Pods_TryNotesApp {
+  umbrella header "Pods-TryNotesApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
