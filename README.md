@@ -1,7 +1,7 @@
 "Try" Notes App
 
 Use:
-1. MVP
+1. MVP + Coordinator
 2. UiKit
 3. UserDefaults
 4. SnapKit
